@@ -2,6 +2,12 @@
     require_once __DIR__ . '/classes/movie.php';
    
     $movies[ ] = new Movie("Taxi Driver ", "Drammatico", 1976);
+    $movies[] =  new Movie("The Shining", "Horror", 1980);
+    $movies[] =  new Movie("The Wolf of Wall Street", "Commedia", 2013);
+    $movies[] =  new Movie("Pulp Fiction", "Commedia", 1994);
+    $movies[] =  new Movie("The Truman Show", "Drammatico", 1998);
+    $movies[] =  new Movie("Big Fish", "Fantastico/Drammatico", 2011);
+    $movies[] =  new Movie("A Clockwork Orange", "Drammatico, Fantascienza", 2019);
 
     // var_dump($movies);
 ?>
